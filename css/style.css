@@ -1,0 +1,272 @@
+img{
+  max-width: 100%
+}
+
+.header{
+  background: #f5f5f5;
+  height: 40px;
+  width: 100%;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu li a{
+  float: left;
+  font-family: helvetica;
+  font-size: 12pt;
+  margin-left: 20px;
+  margin-right: 15px;
+  margin-top: 12px;
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero{
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/Try_it.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 60px;
+  color: white;
+}
+.main-body {
+  max-width: 980px;
+  margin:0 auto;
+}
+
+ .text1 {
+   background: lightgrey;
+   height: 200px;
+ }
+ .text2 {
+   background: lightgrey;
+   height: 200px;
+ }
+ .text3 {
+   background: lightgrey;
+   height: 200px;
+ }
+ .text4 {
+   background: lightgrey;
+   height: 200px;
+ }
+
+.units{
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.box{
+  margin: 0 10px 20px;
+  text-align: center;
+
+}
+
+.green{
+  padding: 25px 0 25px;
+  color: white;
+  line-height: 2em;
+  background-color: #519251;
+}
+
+.green h1{
+  font-size: 6em;
+  margin: 35px 0;
+  font-weight: 200;
+}
+
+.green h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: .3em;
+}
+
+.green p{
+  text-transform: uppercase;
+  opacity: .5;
+  font-size: 1em;
+}
+
+.blue{
+  padding: 25px 0 25px;
+  color: white;
+  line-height: 2em;
+  background-color: #2c4985;
+}
+
+.blue h1{
+  font-size: 6em;
+  margin: 35px 0;
+  font-weight: 200;
+}
+
+.blue h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: .3em;
+}
+
+.blue p{
+  text-transform: uppercase;
+  opacity: .5;
+  font-size: 1em;
+}
+
+.black{
+  padding: 25px 0 25px;
+  color: white;
+  line-height: 2em;
+  background-color: black;
+}
+
+.black h1{
+  font-size: 6em;
+  margin:35px 0;
+  font-weight: 200;
+}
+
+.black h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: .3em;
+}
+
+.black p{
+  text-transform: uppercase;
+  opacity: .5;
+  font-size: 1em;
+}
+
+.box ul{
+  border: 1px solid lightgrey;
+}
+
+.box li{
+  list-style-type: none;
+  padding: 13px 0;
+  background-color: #F7F7F7;
+  border-bottom: 1px solid lightgrey;
+  color: #7D7D7D;
+}
+
+.box button{
+  margin: auto;
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: none;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+  outline: none;
+  background: white;
+  font-weight: bold;
+  display: block;
+  width: 100px;
+  text-align: center;
+}
+
+   .features {
+     clear: both;
+   }
+
+   .text1 {
+     float: left;
+     width: 46%;
+     margin-right: 2%;
+   }
+
+   .text2 {
+     float: right;
+     width: 46%;
+     margin-left: 2%;
+   }
+
+   .text3 {
+     float: left;
+     width: 46%;
+     margin-right: 2%;
+     margin-top: 2%;
+   }
+
+   .text4 {
+     float: right;
+     width: 46%;
+     margin-left: 2%;
+     margin-top: 2%;
+   }
+ }
+
+  .footer{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    line-height: 1em;
+    clear: both;
+  }
+
+  .footer p{
+    color: grey;
+  }
+
+  .footer a{
+    color: white;
+  }
+
+ @media (min-width: 979px) {
+   body {
+     max-width: 970px;
+     margin: 0 auto;
+   }
+
+   .features {
+     clear: both;
+   }
+
+   .text1 {
+     float: left;
+     width: 46%;
+     margin-right: 2%;
+   }
+
+   .text2 {
+     float: right;
+     width: 46%;
+     margin-left: 2%;
+   }
+
+   .text3 {
+     float: left;
+     width: 46%;
+     margin-right: 2%;
+     margin-top: 2%;
+   }
+
+   .text4 {
+     float: right;
+     width: 46%;
+     margin-left: 2%;
+     margin-top: 2%;
+   }
+ }
